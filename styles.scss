@@ -1,0 +1,471 @@
+/////////////////////
+//IMPORTS
+/////////////////////
+
+//font-family: 'Roboto', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+//font-family: 'Roboto Condensed', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
+//font-family: 'Monoton', cursive;
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+//font-family: 'Cinzel', serif;
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700,900);
+//font-family: 'Julius Sans One', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+//////////////////
+//MIX-INS
+//////////////////
+
+@mixin transition($time) {
+	transition:$time;
+	-webkit-transition:$time;
+	-moz-transition:$time;
+	-o-transition:$time;
+}
+
+@mixin box-shadow($horizontal,$vertical,$blur,$color,$inset:false) {
+	-webkit-box-shadow:$horizontal $vertical $blur $color;
+	-moz-box-shadow:$horizontal $vertical $blur $color;
+	box-shadow:$horizontal $vertical $blur $color;
+}
+
+/////////////////
+//VARIABLES
+/////////////////
+
+$dark-dark-gray:#333333;
+$light-light-gray:#f8f8f8;
+$bright-red:#e64d2e;
+$deep-blue:#5064b5;
+$lighter-blue:#687ccf;
+$gray-blue:#545F8A;
+$gray-border: 1px solid #a0a0a0;
+$light-gray-border: 1px solid #ededed;
+$roboto-normal:'Roboto',Helvetica,Arial,sans-serif;
+$roboto-cond:'Roboto Condensed', Helvetica,Arial,sans-serif;
+$cinzel:'Cinzel', serif;
+$header-fonts: 'Julius Sans One','Roboto',Helvetica,Arial,sans-serif;
+$album-title-font:'Julius Sans One', 'Cinzel',Helvetica,Arial,sans-serif;
+
+html {height:95%;}
+
+body { 
+	margin:0; 
+	padding:0;
+	background: url("img/bolt_bg.svg") repeat-x center center fixed #fff0f0;
+	font-family:$roboto-normal;
+	color:$dark-dark-gray;
+	font-size:14px;
+	height:95%;
+}
+
+.error {
+	color:$bright-red;
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:1.2em;
+	display:none;
+}
+
+.form-buttons {
+	padding:12px 20px;
+	color:#ffffff;
+	background-color:$deep-blue;
+	border:1px solid $deep-blue;
+	@include transition(0.2s);
+	
+	&:hover {
+		background-color:$bright-red;
+		border:1px solid #c5381c;
+		color:#ffffff;
+	}
+}
+
+div#headings {
+	display:none;
+	text-align:center;
+	margin-bottom:60px;
+	
+	h1 {
+		font-family:$header-fonts;
+		text-transform:uppercase;
+		font-size:2.5em;
+		font-weight:700;
+		line-height:1.4em;
+		
+		span.db_intro {
+			color: $bright-red;
+			font-family: 'Cinzel','Monoton','Roboto',Helvetica,Arial,sans-serif;
+			font-size:1.8em;
+			font-weight:bold;
+			font-weight:700;
+			text-shadow:0px 2px 1px $deep-blue;
+		}
+	}
+	
+	p {
+		font-size:1.5em;
+		font-weight:300;
+		background-color:$deep-blue;
+		color:#ffffff;
+		width:50%;
+		margin:0 auto;
+		margin-top:30px;
+		padding:5px;
+		border-radius:30px;
+		@include box-shadow(5px,3px,0,$light-light-gray);
+		
+		.fa-bolt {
+			text-shadow: 0px 2px 0px $bright-red;
+		}
+	}
+}
+
+.fluid-container {
+    margin:0 auto;
+    width: Min(1170px, 100%);
+    padding:0 15px;
+}
+
+div#main {
+	display:none;
+	min-height:95%;
+	
+	div#category-box {
+		background-color:#ffffff;
+		border-radius:5px;
+		text-align:center;
+		padding:40px 10px 15px 10px;
+		margin-bottom:40px;
+		@include box-shadow(0,0,5px,#bbbbbb);
+		
+		.categories {
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			font-size:1.2em;
+			margin-bottom:15px;
+			
+			li {
+				display:-moz-inline-stack;
+				display:inline-block;
+				vertical-align:top;
+				zoom:1;
+				*display:inline;
+				margin-right:10px;
+				width:18%;
+				
+				&:last-child {
+					margin-right:0;
+				}
+				
+				div.category {
+					text-transform:uppercase;
+					color:$deep-blue;
+					cursor:pointer;
+					background-color:$light-light-gray;
+					border:$light-gray-border;
+					border-radius:3px;
+					padding:19px 0 6px 0; 
+					font-family:$roboto-cond;
+					font-weight:300;
+					@include transition(0.2s);
+					@include box-shadow(0,0,2px,#ededed);
+					
+					
+					&:hover {
+						background-color:$bright-red;
+						color:#ffffff;
+					}
+					&:active {
+						background-color:$lighter-blue;
+						color:#ffffff;
+					}	
+				}
+				
+				div.selected {
+					background-color:$deep-blue;
+					color:#ffffff;
+					&:hover {background-color:$deep-blue;}
+				}
+			}
+		}
+		
+		.category-bottom {margin-bottom:50px;}
+		
+		form#album_submit {
+			button {
+				margin-bottom:15px;
+			}
+		}
+		
+		#album_area {
+			
+			#album_box {
+				width:60%;
+				margin:0 auto;
+				margin-top:30px;
+				border-top:$gray-border;
+				padding-top:25px;
+				
+				.listen {
+					//font-style:italic;
+					font-size:1.6em;
+					padding-bottom:20px;
+				}
+				
+				img {
+					text-align:center;
+					border:$gray-border;
+					border-radius:4px;
+					background-color:#ffffff;
+					padding:6px;
+					margin-bottom:20px;
+					//@include box-shadow(0,0,4px,#adadad);
+				}	
+				
+				h2 {
+					font-family:$album-title-font;
+					line-height:125%;
+					text-transform:uppercase;
+					font-weight:bold;
+					margin-bottom:15px;
+				}
+				
+				.blurb {
+					font-weight:300;
+					text-align:justify;
+					line-height:175%;
+					font-size:1.2em;
+					margin-bottom:15px;
+				}
+				
+				.btn-default.btn-spotify {
+					@include transition(0.2s);
+					background-color:#ffffff;
+					font-size:1.2em;
+					color:#37bb5d;
+					border-color:#2fd565;
+					padding-left:24px;
+					padding-right:24px;
+					
+					&:hover {
+						color:#37bb5d;
+						background-color:#eefff3;
+					}
+					
+					i.fa {
+						font-size:1.3em;
+					}
+				}
+				
+			}	
+		}	
+	}
+}
+
+footer {
+	text-align:center;
+	width:100%;
+	height:200px;
+	display:none; 
+	
+	.bstar {
+		margin-bottom:40px;
+		margin-top:20px;
+		img {
+			width:90px;
+			@include transition(0.3s);
+			
+			&:hover {
+				transform:scale(1.2);
+			}
+		}
+	}
+	
+	.copyright {
+		font-size:0.9em;
+	}
+}
+
+//////////////////////////
+// RESPONSIVE STYLES
+//////////////////////////
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	div#main {
+		div#category-box {
+			#album_area {
+				#album_box {
+					width:80%;
+				}
+			}
+		}
+	}
+	
+}
+
+@media only screen and (max-width: 515px) {
+	div#headings {
+		p {
+			font-size:1.2em;
+		}
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	div#headings {
+		p {
+			width:70%;
+		}
+	}
+	
+	div#main {
+		margin-bottom:40px;
+		div#category-box {
+			padding-top:20px;
+			margin:0 auto;
+			
+			.categories {
+				margin-bottom:0;
+				
+				li {
+					display:block;
+					margin-bottom:20px;
+					width:100%;
+				}
+			}
+			
+			.category-bottom {
+				margin-bottom:40px;
+			}
+		
+			#album_area {
+				#album_box {
+					width:80%;
+					img {
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+@media only screen and (min-width: 376px) and (max-width: 479px) {
+	
+	div#headings {
+		h1 {
+			font-size:2em;
+			
+			span.db_intro {
+				font-size:1.7em;
+			}
+		}
+		
+		p {
+			width:90%;
+		}
+	}
+	
+	div#main {
+		margin-bottom:40px;
+		div#category-box {
+			padding-top:20px;
+			.categories {
+				margin-bottom:0;
+				li {
+					display:block;
+					margin-bottom:20px;
+					width:100%;
+				}
+			}
+			
+			.category-bottom {
+				margin-bottom:40px;
+			}
+			
+			#album_area {
+				#album_box {
+					width:90%;
+					
+					img {
+						width:100%;
+					}
+					
+					h2 {
+						font-size:1.8em;
+					}
+					
+					.blurb {
+						font-size:1.2em;
+						line-height:175%;
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+
+@media only screen and (max-width: 375px) {
+	
+	div#headings {
+		h1 {
+			font-size:1.6em;
+			
+			span.db_intro {
+				font-size:1.9em;
+			}
+		}
+		
+		p {
+			font-size:1.2em;
+			width:100%;
+		}
+	}
+	
+	div#main {
+		margin-bottom:30px;
+		div#category-box {
+			padding-top:20px;
+			.categories {
+				margin-bottom:0;
+				li {
+					display:block;
+					margin-bottom:20px;
+					width:100%;
+				}
+			}
+			
+			.category-bottom {
+				margin-bottom:30px;
+			}
+			
+			#album_area {
+				#album_box {
+					width:100%;
+					
+					img {
+						width:100%;
+					}
+					
+					h2 {
+						font-size:1.6em;
+					}
+					
+					.blurb {
+						font-size:1.2em;
+						line-height:200%;
+					}
+				}
+			}
+		}
+	}
+	
+}
