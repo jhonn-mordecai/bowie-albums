@@ -3,12 +3,8 @@ $(document).ready(function() {
 	//LOAD JSON
 	loadAlbums();
 	
-	$("div#headings").hide().fadeIn(1000);
-	$("div#main").hide().fadeIn(1000);
-	$("footer").hide().fadeIn(1000);
-	
 	//ATTACH LISTENER FOR CATEGORY SELECT
-	$('div.category').on('click', function() {
+	$('.category').on('click', function() {
 	  categorySelect(this);
 	});
 	
@@ -47,17 +43,17 @@ function loadAlbums() {
 
 	  	
 //USER SELECTS CATEGORIES
-function categorySelect(div) {	
+function categorySelect(a) {	
 	$("p.error").css("display", "none");
 	
-	var maxCat = $("div.selected");
-	 	
-	if ($(div).hasClass("selected")) {
-		$(div).removeClass("selected");
+	var maxCat = $(".selected");
+
+	if ($(a).hasClass("selected")) {
+		$(a).removeClass("selected");
 	} else if (maxCat.length === 3) {
 		return false;		  	
 	} else {
-		$(div).addClass("selected");
+		$(a).addClass("selected");
 	}	
 }
 	  		
@@ -66,9 +62,9 @@ function categorySelect(div) {
 function recommendAlbum(){
 	// Validate three categories
 	
-	var selCat = $("div.selected");
+	var selCat = $(".selected");
 	
-	var noCat = $("li div:not(.selected)");
+	var noCat = $("li a:not(.selected)");
 	
 	if (selCat.length < 3) {
 		$("p.error").css("display", "block");
@@ -101,29 +97,40 @@ function recommendAlbum(){
 	matchKey = ($.inArray(maxValue,albumPoints));
 	
 	var matching_album = albums[matchKey];
-	
-	// var newAlbum = $("<div id='album_box'><p class='listen'>Listen to...</p><img src="+matching_album.cover+" /><h2>"+matching_album.album+"</h2><p class='blurb'>"+matching_album.blurb+"</p><p><a class='btn btn-default btn-spotify' href='"+matching_album.spot_link+"' target='_blank'><i class='fa fa-spotify' aria-hidden='true'></i>&nbsp; Listen</a></p><p><a id='reset' class='reset btn btn-default form-buttons' href='#' title='reset'>DO IT AGAIN</a></p></div>");
-	
+		
 	let newAlbum = `
 		<div id="album_box">
 			<p class="listen">Listen to...</p>
-			<img src="${matching_album.cover}" />
+			<img src="${matching_album.cover}" alt="${matching_album.album} cover" />
 			<h2>${matching_album.album}</h2>
+			<p class="year">(${matching_album.year})</p>
 			<p class="blurb">${matching_album.blurb}</p>
-			<p><a class="btn btn-default btn-spotify" href="${matching_album.spot_link}" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i>&nbsp; Listen</a></p>
-			<p><a id="reset" class="reset btn btn-default form-buttons" href="#" title="reset">DO IT AGAIN</a></p>
+			<p class="spotify">
+				<a class="btn-spotify" href="${matching_album.spot_link}" target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i>&nbsp; Listen</a>
+			</p>
+			<p class="reset-button">
+				<a id="reset" class="reset form-buttons" title="reset">DO IT AGAIN!</a>
+			</p>
 		</div>
 	`;
 	
-	$("div#album_area").empty().prepend(newAlbum).hide().fadeIn(2000); 
+	$("p.teaser").fadeOut();
+
+	$("div#album_area").empty().prepend(newAlbum).slideDown('slow'); 
+
+	$('html, body').animate({
+		scrollTop: $('#results').offset().top - 25
+	});
 }
 	  	
 	  	
 //RESETS ALL SELECTIONS AND ALBUM RECOMMENDATION
 function resetAlbums() {
-	$("div.category").removeClass("selected");
+	$(".category").removeClass("selected");
 
-	$("div#album_box").empty().fadeOut(800, function(){
-		$(this).remove();
+	$("div#album_area").slideUp().slideDown('fast').html('<p class="teaser">Something in the air...</p>');
+
+	$('html,body').animate({
+		scrollTop: $('#headings').offset().top
 	});
 }

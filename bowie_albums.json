@@ -1,91 +1,91 @@
 {"bowie_albums": [
 	
-	{"album": "David Bowie", "blurb": "A little playful but campy 60's pop never hurt anyone; Bowie's often-forgotten debut is an odd but endearingly quaint listen, even if it's not a go-to classic.", "cover":"img/db.png", "spot_link":"https://open.spotify.com/album/5tfpaG0PjUQEpEQJqtjORc", 
-		"album_points": {"experimental":3, "edgy":0, "rockin":0, "upbeat":7, "theatrical":7, "dark":2, "electronic":0, "danceable":0, "acoustic":7, "amiable":10} 
+	{"album": "David Bowie", "year": "1967", "blurb": "A little playful but campy 60's pop never hurt anyone; Bowie's often-forgotten debut is an odd but endearingly quaint listen, even if it's not a go-to classic.", "cover":"img/db.png", "spot_link":"https://open.spotify.com/album/5tfpaG0PjUQEpEQJqtjORc", 
+		"album_points": {"experimental":1, "edgy":0, "rockin":0, "upbeat":9, "theatrical":6, "dark":2, "electronic":0, "danceable":0, "acoustic":7, "amiable":10} 
 	},
 	
-	{"album": "Space Oddity", "blurb": "If you're a fan of psychedelic folk, you'll enjoy hearing Bowie in his early years... but let's face it, you're just going to listen to the title track on repeat.", "cover":"img/space_oddity.jpg", "spot_link":"https://open.spotify.com/album/1ay9Z4R5ZYI2TY7WiDhNYQ",
-		"album_points": {"experimental":3, "edgy":0, "rockin":0, "upbeat":5, "theatrical":0, "dark":2, "electronic":0, "danceable":0, "acoustic":8, "amiable":6}
+	{"album": "Space Oddity", "year": "1969", "blurb": "If you're a fan of psychedelic folk, you'll enjoy hearing Bowie in his early years... the title track is the solid-gold classic here (it was enough to essentially launch his career, after all), but the rest of the record is an interesting listen. He never quite revisited this sound again.", "cover":"img/space_oddity.jpg", "spot_link":"https://open.spotify.com/album/1ay9Z4R5ZYI2TY7WiDhNYQ",
+		"album_points": {"experimental":4, "edgy":1, "rockin":0, "upbeat":4, "theatrical":0, "dark":3, "electronic":0, "danceable":0, "acoustic":8, "amiable":5}
 	},
 	
-	{"album": "The Man Who Sold the World", "blurb": "Most known for its now-famous title track, The Man Who Sold the World is a cold, dark bridge between Bowie's folk beginnings and hard rock leanings. An outlier in his discography, it is often overlooked.", "cover":"img/manwhosold.jpg", "spot_link":"https://open.spotify.com/album/4h9rWFWhgCSSrvIEQ0YhYG",
-		"album_points": {"experimental":4, "edgy":7, "rockin":8, "upbeat":2, "theatrical":5, "dark":7, "electronic":3, "danceable":0, "acoustic":4, "amiable":1}
+	{"album": "The Man Who Sold the World", "year": "1970", "blurb": "Most known for its now-famous title track, The Man Who Sold the World is a cold, dark bridge between Bowie's folk beginnings and hard rock leanings. An outlier in his discography, it is often overlooked.", "cover":"img/manwhosold.jpg", "spot_link":"https://open.spotify.com/album/4h9rWFWhgCSSrvIEQ0YhYG",
+		"album_points": {"experimental":4, "edgy":7, "rockin":8, "upbeat":1, "theatrical":4, "dark":7, "electronic":1, "danceable":0, "acoustic":4, "amiable":0}
 	},
 	
-	{"album": "Hunky Dory", "blurb": "The perfect crowd-pleasing yet thought-provoking blend of Bowie's early-70's folk and pre-glam rock always hits the spot, with some of the most gorgeous pop songs he's ever written.", "cover":"img/hunky.jpg", "spot_link":"https://open.spotify.com/album/6fQElzBNTiEMGdIeY0hy5l",
-		"album_points": {"experimental":1, "edgy":3, "rockin":7, "upbeat":9, "theatrical":6, "dark":3, "electronic":0, "danceable":0, "acoustic":10, "amiable":6}
+	{"album": "Hunky Dory", "year": "1971", "blurb": "The perfect crowd-pleasing yet thought-provoking blend of Bowie's early-70's folk and pre-glam rock always hits the spot, with some of the most gorgeous pop songs he's ever written.", "cover":"img/hunky.jpg", "spot_link":"https://open.spotify.com/album/6fQElzBNTiEMGdIeY0hy5l",
+		"album_points": {"experimental":1, "edgy":3, "rockin":6, "upbeat":8, "theatrical":6, "dark":2, "electronic":0, "danceable":0, "acoustic":9, "amiable":6}
 	},
 	
-	{"album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", "blurb": "One of the most definitive moments of glam rock and the start of Bowie's first and most iconic persona. The perfect blend of styles up to this point, you really can't go wrong with Ziggy. Wham bam, thank you ma'am.", "cover":"img/ziggy.jpg", "spot_link":"https://open.spotify.com/album/48D1hRORqJq52qsnUYZX56",
-		"album_points": {"experimental":1, "edgy":8, "rockin":8, "upbeat":8, "theatrical":9, "dark":0, "electronic":0, "danceable":2, "acoustic":3, "amiable":7}
+	{"album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars", "year": "1972", "blurb": "One of the most defining moments of glam rock and the birth of Bowie's most iconic persona. The perfect blend of styles up to this point, you really can't go wrong with Ziggy.", "cover":"img/ziggy.jpg", "spot_link":"https://open.spotify.com/album/48D1hRORqJq52qsnUYZX56",
+		"album_points": {"experimental":1, "edgy":7, "rockin":8, "upbeat":8, "theatrical":9, "dark":1, "electronic":0, "danceable":2, "acoustic":4, "amiable":7}
 		},
 	
-	{"album": "Aladdin Sane", "blurb": "The 'Ziggy Goes to America' album is the louder, harder-rocking version of its predecessor, with avant garde jazz piano motifs upping the art-rock ante.", "cover":"img/aladdin.jpg", "spot_link":"https://open.spotify.com/album/3HZKOk1knxrUU3y5ZIOdbz",
+	{"album": "Aladdin Sane", "year": "1973", "blurb": "The 'Ziggy Goes to America' album is the louder, harder-rocking and more debauched glam rock party than 'Ziggy Stardust', with avant garde jazz piano motifs bringing things into art-rock territory.", "cover":"img/aladdin.jpg", "spot_link":"https://open.spotify.com/album/3HZKOk1knxrUU3y5ZIOdbz",
 		"album_points": {"experimental":3, "edgy":6, "rockin":9, "upbeat":5, "theatrical":8, "dark":6, "electronic":1, "danceable":0, "acoustic":2, "amiable":3}
 		},
 	
-	{"album": "Diamond Dogs", "blurb": "Things start to get funky on Bowie's final glam rock bow, incorporating heavy doses of soul and disco to soundtrack a thematic nod to George Orwell's <span class='italic'>1984</span>. Bowie plays most of the instruments aside from bass and drums himself, and his raw playing adds a dirty edge to the sound.", "cover":"img/diamond.jpg", "spot_link":"https://open.spotify.com/album/72mfhbEsMtXR6s7v9UhKe3",
+	{"album": "Diamond Dogs", "year": "1974", "blurb": "Things start to get funky on Bowie's final glam rock bow, incorporating heavy doses of soul and disco to soundtrack a thematic nod to George Orwell's <span class='italic'>1984</span>. Bowie plays most of the instruments aside from bass and drums himself, and his raw playing adds a dirty edge to the sound.", "cover":"img/diamond.jpg", "spot_link":"https://open.spotify.com/album/72mfhbEsMtXR6s7v9UhKe3",
 		"album_points": {"experimental":4, "edgy":7, "rockin":8, "upbeat":4, "theatrical":9, "dark":6, "electronic":3, "danceable":4, "acoustic":0, "amiable":3}
 		},
 	
-	{"album": "Young Americans", "blurb": "Bowie abandons rock and goes full-on soul for Young Americans, notable for its early contributions from then-unknown Luther Vandross and the John Lennon collaboration <span class='italic'>Fame</span>.", "cover":"img/americans.jpg", "spot_link":"https://open.spotify.com/album/0lITGovWgaQGi42EfqcE5P",
-		"album_points": {"experimental":1, "edgy":1, "rockin":2, "upbeat":6, "theatrical":0, "dark":2, "electronic":0, "danceable":8, "acoustic":0, "amiable":5}
+	{"album": "Young Americans", "year": "1975", "blurb": "Bowie abandons rock and goes full-on soul for Young Americans, notable for its early contributions from then-unknown Luther Vandross and the John Lennon collaboration <span class='italic'>Fame</span>.", "cover":"img/americans.jpg", "spot_link":"https://open.spotify.com/album/0lITGovWgaQGi42EfqcE5P",
+		"album_points": {"experimental":0, "edgy":0, "rockin":2, "upbeat":6, "theatrical":0, "dark":2, "electronic":0, "danceable":8, "acoustic":0, "amiable":2}
 		},
 	
-	{"album": "Station to Station", "blurb": "Cocaine's a hell of a drug. Bowie's paranoid descent into madness yielded this - a brief album, but a bold and stark one that blends his 'plastic soul' sound with the influence of German experimental music, especially on the brilliant title track, which introduces the Thin White Duke persona. It's cold, detached, and at times desperate, yet still grooves infectiously. Put it on at a party and you'll still be just fine.", "cover":"img/station.jpg", "spot_link":"https://open.spotify.com/album/0MWrKayUshRuT8maG4ZAOU",
-		"album_points": {"experimental":7, "edgy":6, "rockin":3, "upbeat":4, "theatrical":4, "dark":6, "electronic":0, "danceable":7, "acoustic":0, "amiable":1}
+	{"album": "Station to Station", "year": "1976", "blurb": "Cocaine's a hell of a drug. Bowie's paranoid descent into madness yielded this - a brief album, but a bold and stark one that blends his 'plastic soul' sound with the influence of German experimental music, especially on the brilliant title track, which introduces the Thin White Duke persona. It's cold, detached, and at times desperate, yet still grooves infectiously.", "cover":"img/station.jpg", "spot_link":"https://open.spotify.com/album/0MWrKayUshRuT8maG4ZAOU",
+		"album_points": {"experimental":6, "edgy":6, "rockin":3, "upbeat":4, "theatrical":4, "dark":6, "electronic":0, "danceable":8, "acoustic":0, "amiable":0}
 		},
 	
-	{"album": "Low", "blurb": "Bowie's bold step into uncharted territory with collaborator Brian Eno is one of the best albums he'd ever make, the start of his so-called <span class='italic'>Berlin Trilogy</span> combining short, quirky synth-flourished pop songs on side one, and stark ambient electronic instrumentals on side two.", "cover":"img/low.jpg", "spot_link":"https://open.spotify.com/album/0Oqi3Mm316FRX5H9mHjF0b",
-		"album_points": {"experimental":10, "edgy":8, "rockin":5, "upbeat":5, "theatrical":4, "dark":4, "electronic":8, "danceable":3, "acoustic":0, "amiable":3}
+	{"album": "Low", "year": "1977", "blurb": "Bowie's bold step into uncharted territory with collaborator Brian Eno is one of the best albums he'd ever make, the start of his so-called <span class='italic'>Berlin Trilogy</span> combining short, quirky synth-flourished pop songs on side one, and stark ambient electronic instrumentals on side two.", "cover":"img/low.jpg", "spot_link":"https://open.spotify.com/album/0Oqi3Mm316FRX5H9mHjF0b",
+		"album_points": {"experimental":10, "edgy":8, "rockin":5, "upbeat":5, "theatrical":1, "dark":5, "electronic":7, "danceable":2, "acoustic":0, "amiable":2}
 		},
 	
-	{"album": "Heroes", "blurb": "The second of Bowie's <span class='italic'>Berlin Trilogy</span> sports raw, jagged pop songs on side one, and bleak ambient instrumentals on side two, all touched by an anything-goes approach to sound experiments and fantastic playing from his then-well-seasoned band. Worth it for the transcendent title track alone.", "cover":"img/heroes.jpg", "spot_link":"https://open.spotify.com/album/3lFioPGhn7x5Y3H3YbPV83",
-		"album_points": {"experimental":9, "edgy":9, "rockin":7, "upbeat":4, "theatrical":1, "dark":6, "electronic":4, "danceable":2, "acoustic":0, "amiable":1}
+	{"album": "Heroes", "year": "1977", "blurb": "The second of Bowie's <span class='italic'>Berlin Trilogy</span> sports raw, jagged pop songs on side one, and bleak ambient instrumentals on side two, all touched by an anything-goes approach to sound experiments and fantastic playing from his then-well-seasoned band. Worth it for the transcendent title track alone.", "cover":"img/heroes.jpg", "spot_link":"https://open.spotify.com/album/3lFioPGhn7x5Y3H3YbPV83",
+		"album_points": {"experimental":9, "edgy":9, "rockin":7, "upbeat":4, "theatrical":0, "dark":8, "electronic":5, "danceable":0, "acoustic":0, "amiable":1}
 		},
 	
-	{"album": "Lodger", "blurb": "An eccentric album of art rock taking in a number of styles including Eastern scales, enhanced by the inventive soundscapes and atypical approaches of collaborator Brian Eno. The often-underrated third part of the <span class='italic'>Berlin Trilogy</span>.", "cover":"img/lodger.jpg", "spot_link":"https://open.spotify.com/album/5HFp1l4n85DnXWl0q6M2mq",
-		"album_points": {"experimental":7, "edgy":9, "rockin":8, "upbeat":7, "theatrical":2, "dark":2, "electronic":4, "danceable":3, "acoustic":0, "amiable":4}
+	{"album": "Lodger", "year": "1979", "blurb": "An eccentric art-rock album incorporating a number of styles including Eastern scales and African grooves, enhanced by the inventive soundscapes and atypical approaches of collaborator Brian Eno. The often-underrated third part of the <span class='italic'>Berlin Trilogy</span>.", "cover":"img/lodger.jpg", "spot_link":"https://open.spotify.com/album/5HFp1l4n85DnXWl0q6M2mq",
+		"album_points": {"experimental":7, "edgy":8, "rockin":8, "upbeat":7, "theatrical":0, "dark":2, "electronic":3, "danceable":3, "acoustic":0, "amiable":4}
 		},
 	
-	{"album": "Scary Monsters (And Super Creeps)", "blurb": "Bowie's first entry in the 1980s and by most measures the last classic of his first era, new wave-ish art rock abounds. Contains one of his best-ever songs, Ashes to Ashes.", "cover":"img/monsters.jpg", "spot_link":"https://open.spotify.com/album/53YfKqwV8lphizo06QSxEe",
-		"album_points": {"experimental":3, "edgy":5, "rockin":7, "upbeat":5, "theatrical":2, "dark":5, "electronic":3, "danceable":5, "acoustic":0, "amiable":4}
+	{"album": "Scary Monsters (And Super Creeps)", "year": "1980", "blurb": "Bowie's first entry in the 1980s and by most measures the last classic of his first era; new wave-ish art rock abounds. Contains one of his best-ever songs, Ashes to Ashes.", "cover":"img/monsters.jpg", "spot_link":"https://open.spotify.com/album/53YfKqwV8lphizo06QSxEe",
+		"album_points": {"experimental":3, "edgy":5, "rockin":8, "upbeat":5, "theatrical":0, "dark":5, "electronic":2, "danceable":6, "acoustic":0, "amiable":4}
 		},
 	
-	{"album": "Let's Dance", "blurb": "This is where things go pop. The end of Bowie the art rocker and the start of Bowie the pop star ... which was sort of an experiment in itself. His biggest good-time hits are here. It was also his last decent record for a while, so appreciate it!", "cover":"img/letsdance.jpg", "spot_link":"https://open.spotify.com/album/37KYBt1Lzn4eJ4KoCFZcnR",
-		"album_points": {"experimental":0, "edgy":0, "rockin":2, "upbeat":5, "theatrical":0, "dark":0, "electronic":0, "danceable":3, "acoustic":0, "amiable":4}
+	{"album": "Let's Dance", "year": "1983", "blurb": "Where things go pop. The end of Bowie the art rocker and the start of Bowie the pop star ... which was sort of an experiment in itself. His biggest good-time hits are here. It was also his last decent record for quite a while, so appreciate it!", "cover":"img/letsdance.jpg", "spot_link":"https://open.spotify.com/album/37KYBt1Lzn4eJ4KoCFZcnR",
+		"album_points": {"experimental":0, "edgy":0, "rockin":3, "upbeat":8, "theatrical":0, "dark":0, "electronic":0, "danceable":7, "acoustic":0, "amiable":6}
 		},
 	
-	{"album": "Tonight / Never Let Me Down/Black Tie White Noise", "blurb": "Let's face it - you're not looking for much. Even Bowie himself disowns his 80s albums. You'll find at least a couple good songs in the bunch - 'Blue Jean,' 'Loving the Alien,' and the like - so put 'em on if you want something inobtrusive. But if you skipped these, you won't miss anything too important.", "cover":"img/80s.jpg", "spot_link":"https://open.spotify.com/album/1yFItZkb7DBAkQ5RB8OJv9",
-		"album_points": {"experimental":1, "edgy":3, "rockin":4, "upbeat":9, "theatrical":2, "dark":1, "electronic":2, "danceable":8, "acoustic":0, "amiable":9}
+	{"album": "Tonight / Never Let Me Down / Black Tie White Noise", "year": "1984 / 1987 / 1993", "blurb": "Let's face it - you're not looking for much. Even Bowie himself disowns his 80s albums. You'll find at least a couple good songs in the bunch - 'Blue Jean,' 'Loving the Alien,' and the like - so put 'em on if you want something inobtrusive. But if you skipped these, you won't miss anything important. Black Tie White Noise starts to right the ship as Bowie enters the 90s, but better things were yet to come.", "cover":"img/80s.jpg", "spot_link":"https://open.spotify.com/album/1yFItZkb7DBAkQ5RB8OJv9",
+		"album_points": {"experimental":0, "edgy":2, "rockin":4, "upbeat":8, "theatrical":0, "dark":0, "electronic":2, "danceable":8, "acoustic":0, "amiable":9}
 		},
 	
-	{"album": "Outside", "blurb": "Bowie's first solid footstep back in the artistic game after a decade-long creative drought, Outside was an obtuse concept album taking on avant garde jazz, industrial rock and electronic music. While it might be a long listen, there's a lot of good here and he never quite got this out-there again. It alienated most of his fans... which means you know it's good.", "cover":"img/outside.jpg", "spot_link":"https://open.spotify.com/album/6lo9vk77R6NAzAg3tTcJxc",
-		"album_points": {"experimental":8, "edgy":10, "rockin":7, "upbeat":1, "theatrical":7, "dark":8, "electronic":8, "danceable":3, "acoustic":0, "amiable":0}
+	{"album": "Outside", "year": "1995", "blurb": "Bowie's first solid footstep back in the artistic game after a decade-long creative drought, Outside was an obtuse concept album taking on avant garde jazz, industrial rock and then-burgeoning techno. While it might be a long listen, there's a lot worth hearing here, and he never quite got this out-there again. It alienated most of his fans... which means you know it's good.", "cover":"img/outside.jpg", "spot_link":"https://open.spotify.com/album/6lo9vk77R6NAzAg3tTcJxc",
+		"album_points": {"experimental":8, "edgy":10, "rockin":6, "upbeat":0, "theatrical":7, "dark":8, "electronic":8, "danceable":3, "acoustic":0, "amiable":0}
 		},
 	
-	{"album": "Earthling", "blurb": "Taking his foray into electronic music further, Earthling jumped into the late-90s drum-n-bass game... not exactly his best offering, but a good time all around.", "cover":"img/earthling.jpg", "spot_link":"https://open.spotify.com/album/1LCF3So9B9X0xreRtYbYIr",
-		"album_points": {"experimental":5, "edgy":7, "rockin":7, "upbeat":7, "theatrical":2, "dark":2, "electronic":8, "danceable":7, "acoustic":0, "amiable":7}
+	{"album": "Earthling", "year": "1997", "blurb": "Taking his foray into electronic music further, Earthling jumped into the late-90s drum-n-bass game... not exactly his best offering, but a good time all around and features some of his best later-day singles.", "cover":"img/earthling.jpg", "spot_link":"https://open.spotify.com/album/1LCF3So9B9X0xreRtYbYIr",
+		"album_points": {"experimental":5, "edgy":7, "rockin":7, "upbeat":7, "theatrical":1, "dark":2, "electronic":9, "danceable":7, "acoustic":0, "amiable":7}
 		},
 	
-	{"album": "Hours...", "blurb": "A more somber step back... Hours is mostly contemplative, middle-aged acoustic pop with a few hard rock edges and early-00s sheen. You could even say it's adult contemporary... A few decent songs but largely one of his most forgettable efforts, you'll find what it offers better elsewhere.", "cover":"img/hours.jpg", "spot_link":"https://open.spotify.com/album/79EPGP6VA65fDFs4fgFpel",
-		"album_points": {"experimental":0, "edgy":2, "rockin":4, "upbeat":4, "theatrical":0, "dark":0, "electronic":3, "danceable":1, "acoustic":6, "amiable":7}
+	{"album": "Hours...", "year": "1999", "blurb": "A more somber step back... Hours is mostly contemplative, middle-aged acoustic pop with a few hard rock edges, all doused in turn-of-the-century sheen. You could even say it's adult contemporary... A few decent songs but largely one of his most forgettable efforts, you'll find what it offers better elsewhere.", "cover":"img/hours.jpg", "spot_link":"https://open.spotify.com/album/79EPGP6VA65fDFs4fgFpel",
+		"album_points": {"experimental":0, "edgy":1, "rockin":4, "upbeat":3, "theatrical":0, "dark":0, "electronic":2, "danceable":1, "acoustic":6, "amiable":7}
 		},
 	
-	{"album": "Heathen", "blurb": "Bowie took on the role of elder statesmen with Heathen, producing a provocative album that encapsulates many aspects of his post-70s sound, but from a decidedly middle-aged perspective. However it does boast fantastic textures and was his best batch of solid pop songs in some time.", "cover":"img/heathen.jpg", "spot_link":"https://open.spotify.com/album/6cideQBTEM8b6pQ40OHQ2P",
+	{"album": "Heathen", "year": "2002", "blurb": "Bowie took on the role of elder statesmen with Heathen, producing a provocative album that encapsulates many aspects of his post-70s sound, but from a decidedly middle-aged perspective. However it does boast fantastic textures and was his best batch of songs in some time. The moody Sunday, I Would Be Your Slave, and the title track are standouts here.", "cover":"img/heathen.jpg", "spot_link":"https://open.spotify.com/album/6cideQBTEM8b6pQ40OHQ2P",
 		"album_points": {"experimental":4, "edgy":5, "rockin":4, "upbeat":5, "theatrical":2, "dark":4, "electronic":4, "danceable":2, "acoustic":1, "amiable":7}		
 		},
 	
-	{"album": "Reality", "blurb": "The higher-energy cousin to its <span class='italic'>Heathen</span> predecessor, <span class='italic'>Reality</span> continues a comfortable creative boost - steady rockers and wistful ballads. Not essential overall, but is worth it for ending with the introspective noir jazz of 'Bring Me the Disco King.'", "cover":"img/reality.jpg", "spot_link":"https://open.spotify.com/album/04bKxe1Y7WFw4yrDPlmswG",
-		"album_points": {"experimental":2, "edgy":5, "rockin":6, "upbeat":5, "theatrical":4, "dark":3, "electronic":2, "danceable":2, "acoustic":3, "amiable":7}
+	{"album": "Reality", "year": "2003", "blurb": "The higher-energy cousin to its <span class='italic'>Heathen</span> predecessor, <span class='italic'>Reality</span> continues a comfortable early-00's creative boost - steady rockers and wistful ballads. Not his most essential album, granted, but is worth it for the introspective noir jazz of 'Bring Me the Disco King'.", "cover":"img/reality.jpg", "spot_link":"https://open.spotify.com/album/04bKxe1Y7WFw4yrDPlmswG",
+		"album_points": {"experimental":1, "edgy":5, "rockin":7, "upbeat":5, "theatrical":4, "dark":3, "electronic":1, "danceable":2, "acoustic":3, "amiable":7}
 		},
 	
-	{"album": "The Next Day", "blurb": "Bowie's enjoyable penultimate album combines confident rockers, wistful pop, and heavy doses of reflection on life, love, fame and the odd ruminations on the executions of dictators... the usual stuff.", "cover":"img/nextday.jpg", "spot_link":"https://open.spotify.com/album/16F7X7WOFZhMwQNsMil7lq",
-		"album_points": {"experimental":2, "edgy":4, "rockin":6, "upbeat":7, "theatrical":2, "dark":4, "electronic":0, "danceable":3, "acoustic":2, "amiable":6}
+	{"album": "The Next Day", "year": "2013", "blurb": "Bowie's enjoyable penultimate album combines confident rockers, wistful pop, and heavy doses of reflection on life, love, fame and the odd ruminations on the executions of dictators... the usual stuff. Released almost by surprise after a very long abscence, it feels like a bit of a victory lap before riding off into the sun...", "cover":"img/nextday.jpg", "spot_link":"https://open.spotify.com/album/16F7X7WOFZhMwQNsMil7lq",
+		"album_points": {"experimental":2, "edgy":5, "rockin":7, "upbeat":7, "theatrical":2, "dark":4, "electronic":0, "danceable":3, "acoustic":2, "amiable":6}
 		},
 	
-	{"album": "Blackstar", "blurb": "Art imitates death on Bowie's final statement. Written and recorded while Bowie was battling the cancer that eventually killed him, it's a bold step back into the Bowie-as-artiste mode that made his 70s work so exciting. The epic title track, adventurous approach (jazz musicians were used in lieu of his usual backing band), and vivid imagery and symbolism make it one of the best albums in Bowie's canon and a magnificent and poignant farewell.", "cover":"img/blackstar.jpg", "spot_link":"https://open.spotify.com/album/2w1YJXWMIco6EBf0CovvVN",
-		"album_points": {"experimental":7, "edgy":9, "rockin":3, "upbeat":1, "theatrical":6, "dark":10, "electronic":5, "danceable":3, "acoustic":4, "amiable":1}
+	{"album": "Blackstar", "year": "2016", "blurb": "Art imitates death on Bowie's final statement. Written and recorded while he was battling the cancer that eventually killed him, it's a bold step back into the Bowie-as-artiste mode that always made his best work so exciting. The epic title track, adventurous approach (jazz musicians were used in lieu of his usual backing band), and vivid imagery and symbolism make it one of the best albums in Bowie's canon and a magnificent and poignant farewell. Had it not been released days before his death, it still would be regarded as one of the best of his career... a rare feet for any classic-rocker, indeed.", "cover":"img/blackstar.jpg", "spot_link":"https://open.spotify.com/album/2w1YJXWMIco6EBf0CovvVN",
+		"album_points": {"experimental":7, "edgy":9, "rockin":3, "upbeat":1, "theatrical":7, "dark":10, "electronic":5, "danceable":3, "acoustic":3, "amiable":1}
 		}
 	
 ]}

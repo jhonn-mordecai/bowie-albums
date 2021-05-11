@@ -8,106 +8,114 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Trouble picking a David Bowie album to listen to? Use this to narrow the search down.">
-    <meta name="keywords" content="David Bowie, Bowie, bowie, blackstar, albums, glam rock, experimental, eno, bowie app">
+    <meta name="keywords" content="David Bowie, Bowie, bowie, blackstar, albums, glam rock, eno, bowie app">
     <meta name="author" content="John Mordecai">
     <meta property="og:image" content="http://whichbowiealbum.com/img/low_bg.jpg" />
     <meta property="og:image:type" content="image/jpg" />
+	<meta property="og:url" content="http://whichbowiealbum.com/" />
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="img/bowie-favicon.png" />
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /> 
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
 </head>
 <body>
 	<div id="headings">	
-		<div class="container">
-			<h1>Which<br /><span class="db_intro">David Bowie</span><br />Album<br />Should I Listen To?</h1>
-			<p><i class="fa fa-bolt" aria-hidden="true"></i>&nbsp; Select Three Parameters Below &nbsp;<i class="fa fa-bolt" aria-hidden="true"></i></p>
+		<h1>which <span class="bowie-title">DAVID BOWIE</span> album<br />should I listen to?</h1>
+		<div>
+			<span class="star star1"></span>
+			<span class="star star2"></span>
+			<span class="intro">
+				<i class="fa fa-bolt" aria-hidden="true"></i>&nbsp;&nbsp; 
+				Select Three Parameters 
+				&nbsp;&nbsp;<i class="fa fa-bolt" aria-hidden="true"></i>
+			</span>
 		</div>
 	</div>
-	<div id="main">
-		<div class="fluid-container">
-			<div id="category-box">
-				<ul class="categories category-top">
+	
+	<main>
+		<div class="fluid-container-1170">
+			<section id="category-container">
+				<ul class="categories">
 					<li>
-						<div id="experimental" class="category">
-							<p>Experimental</p>
-						</div>
+						<a id="experimental" class="category">
+							<span class="btn-label">Experimental</span>
+						</a>
 					</li>
 					<li>
-						<div id="edgy" class="category">
-							<p>Edgy</p>
-						</div>
+						<a id="edgy" class="category">
+							<span class="btn-label">Edgy</span>
+						</a>
 					</li>
 					<li>
-						<div id="rockin" class="category">
-							<p>Rockin&#39;</p>
-						</div>
+						<a id="rockin" class="category">
+							<span class="btn-label">Rockin&#39;</span>
+						</a>
 					</li>
 					<li>
-						<div id="upbeat" class="category">
-							<p>Upbeat</p>
-						</div>
+						<a id="upbeat" class="category">
+							<span class="btn-label">Upbeat</span>
+						</a>
 					</li>
 					<li>
-						<div id="theatrical" class="category">
-							<p>Theatrical</p>
-						</div>
-					</li>
-				</ul>
-				<ul class="categories category-bottom">
-					<li>
-						<div id="dark" class="category">
-							<p>Dark</p>
-						</div>
+						<a id="theatrical" class="category">
+							<span class="btn-label">Theatrical</span>
+						</a>
 					</li>
 					<li>
-						<div id="electronic" class="category">
-							<p>Electronic</p>
-						</div>
+						<a id="dark" class="category">
+							<span class="btn-label">Dark</span>
+						</a>
 					</li>
 					<li>
-						<div id="acoustic" class="category">
-							<p>Folky</p>
-						</div>
+						<a id="electronic" class="category">
+							<span class="btn-label">Electronic</span>
+						</a>
 					</li>
 					<li>
-						<div id="danceable" class="category">
-							<p>Danceable</p>
-						</div>
+						<a id="acoustic" class="category">
+							<span class="btn-label">Songy</span>
+						</a>
 					</li>
 					<li>
-						<div id="amiable" class="category">
-							<p>Amiable</p>
-						</div>
+						<a id="danceable" class="category">
+							<span class="btn-label">Dancey</span>
+						</a>
+					</li>
+					<li>
+						<a id="amiable" class="category">
+							<span class="btn-label">Amiable</span>
+						</a>
 					</li>
 				</ul>	
 				<form id="album_submit">
 					<button id="album_submit" class="btn btn-default form-buttons" type="submit">FIND ALBUM</button>
 					<p id="submit_error" class="error">Please select three categories</p>
-				</form>			
-				<div id="album_area">
-					<!-- Album content goes here.. -->
+				</form>	
+			</section>	
+			<section id="results">
+				<div class="fluid-container-800">
+					<div id="album_area">
+						<p class="teaser">Something in the air...</p>
+						
+						<!-- album_box goes here -->
+					</div>
 				</div>	
-			</div>
+			</section>	
 		</div>	
-	</div>
+	</main>
 	<footer>
-		<div class="container">
-			<p class="bstar">
-				<a href="http://www.davidbowie.com" target="_blank">
-					<img src="img/bstar.svg" />
-				</a>
+		<div class="fluid-container-800">
+			<p class="copyright"><span>&copy;2016-2021 by <a href="http://johnmordecai.com" target="_blank">John Mordecai</a></span></p>
+			<p class="disclaimer">
+				This is all purely subjective, of course, but I'm regularly tweaking the numbers here to make sure the results can be closest to whatever is accurate-ish enough...
 			</p>
-			<p class="copyright">&copy;2016 by <a href="http://www.johnmordecai.com" target="_blank">John Mordecai</a></p>	
 		</div>
 	</footer>
 	
 	<!-- JQUERY & JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="scripts.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
