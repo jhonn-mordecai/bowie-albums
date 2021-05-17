@@ -467,7 +467,7 @@ footer {
   line-height: 175%;
 }
 
-footer p span {
+footer p span.copyright {
   display: inline-block;
   -webkit-transform: rotate(-5deg) skew(-15deg);
           transform: rotate(-5deg) skew(-15deg);

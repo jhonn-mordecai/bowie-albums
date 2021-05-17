@@ -20,7 +20,11 @@ $(document).ready(function() {
 	});
 	
 });
-	    
+
+//Get Copyright Year
+let date = new Date();
+let year = date.getFullYear();
+document.querySelector(".copy-year").innerHTML = `${year}`;
 	  	
 //LOAD ALBUM LIST DATA FROM JSON
 var albums = null;  // SETS albums AS A GLOBAL VARIABLE  (THEN IT CAN BE SET WHERE NEEDED, SEE LINE 80)

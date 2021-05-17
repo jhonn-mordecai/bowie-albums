@@ -460,7 +460,7 @@ footer {
 	line-height:175%;
 
 	p {
-		span {
+		span.copyright {
 			display:inline-block;
 			transform: rotate(-5deg) skew(-15deg);
 			background-color:$bright-red;
